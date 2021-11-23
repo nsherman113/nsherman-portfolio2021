@@ -5,10 +5,10 @@ import "./navigation.css"
 function NavBar () {
     return (
       <div class="topnav">
-      <a class="active" href="#home">About</a>
-      <a href="#news">Work</a>
-      <a href="#contact">Skills</a>
-      <a href="#about">Contact</a>
+      <a class="active" href="#about">About</a>
+      <a href="work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
     </div>
     )
 }

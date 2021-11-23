@@ -4,14 +4,15 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 
 
-function About () {
+
+function Work () {
     return (
         <React.Fragment>
           <CssBaseline />
           <Container maxWidth="sm"> 
-            <Box sx={{ bgcolor: '#dd9b1f', height: 200 }}>text</Box>
+            <Box sx={{ bgcolor: '#dd9b1f', height: '50vh' }}></Box>
           </Container>
         </React.Fragment>
       );
 }
-export default About;
+export default Work;
